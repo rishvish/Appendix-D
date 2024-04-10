@@ -3,6 +3,10 @@ output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+<style>
+body {
+text-align: justify}
+</style>
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -11,24 +15,27 @@ knitr::opts_chunk$set(
 )
 ```
 
+
 # Theta Simulation Study
 
 <!-- badges: start -->
+[![Paper DOI](https://img.shields.io/badge/Paper_DOI-10.1007/s10651--023--00563--w-green)](https://doi.org/10.1007/s10651-023-00563-w)
+[![Code DOI](https://img.shields.io/badge/Code_DOI-10.5281/zenodo.10827269-blue)](https://doi.org/10.5281/zenodo.10827269)
 <!-- badges: end -->
 
-This repository contains the source code for reproducing results of the theta simulation study performed in Vishwakarma et al. (arXiv link to be added soon) to test the robustness of the non-linear parameter $\theta$ in Generalized Diversity-Interactions (GDI; Kirwan et al. 2009, https://doi.org/10.1890/08-1684.1; Connolly et al. 2013, https://doi.org/10.1111/1365-2745.12052) models across the different interaction structures and suggest a model selection procedure for fitting GDI models.
+This repository contains the source code for reproducing results of the theta simulation study performed in [Vishwakarma et al. 2023](https://doi.org/10.1007/s10651-023-00563-w) to test the robustness of the non-linear parameter $\theta$ in Generalized Diversity-Interactions (GDI; [Kirwan et al. 2009](https://doi.org/10.1890/08-1684.1); [Connolly et al. 2013](https://doi.org/10.1111/1365-2745.12052)) models across the different interaction structures and suggest a model selection procedure for fitting GDI models.
 
 ###  The File/Folder descriptions are as follows:
 
-* <u>**small example for verification:**</u> This is a small subset of the simulation to give a flavour of the results. Execute this file if you don't want to run the entire simulation to verify the results. The code takes anywhere between 20-45 minutes to execute completely.
+* <u>**small example for verification.R:**</u> This is a small subset of the simulation to give a flavour of the results. Execute this file if you don't want to run the entire simulation to verify the results. The code takes anywhere between 20-45 minutes to execute completely.
  
-* <u>**4 species example:**</u> Code to run the 4 species example from the main paper. Also includes example with other interaction structures. Can take up to a couple of days to run the entire code. Pre-computed R objects have been provided which can be used to verify the results.
+* <u>**4 species example.R:**</u> Code to run the 4 species example from the main paper. Also includes example with other interaction structures. Can take up to a couple of days to run the entire code. Pre-computed R objects have been provided which can be used to verify the results.
 
-* <u>**9 species example:**</u> Code to run the 9 species example from the main paper. Also includes example with other interaction structures. Can take three or four days to run the entire code. Pre-computed R objects have been provided which can be used to verify the results.
+* <u>**9 species example.R:**</u> Code to run the 9 species example from the main paper. Also includes example with other interaction structures. Can take three or four days to run the entire code. Pre-computed R objects have been provided which can be used to verify the results.
 
-* <u>**6 species example:**</u> Code to run the 6 species example from the appendix. Can take up to 7 hours to run the entire code. Pre-computed R objects have been provided which can be used to verify the results.
+* <u>**6 species example.R:**</u> Code to run the 6 species example from the appendix. Can take up to 7 hours to run the entire code. Pre-computed R objects have been provided which can be used to verify the results.
 
-* <u>**16 species example:**</u> Code to run the 16 species example from the appendix to test different functional groupings. Can take up to 15 hours to run the entire code. Pre-computed R objects have been provided which can be used to verify the results.
+* <u>**16 species example.R:**</u> Code to run the 16 species example from the appendix to test different functional groupings. Can take up to 15 hours to run the entire code. Pre-computed R objects have been provided which can be used to verify the results.
 
 * <u>**72 species example:**</u> Code to run the 72 species example from the appendix. Can take up to 2 days to run the entire code. Pre-computed R objects have been provided which can be used to verify the results.
 

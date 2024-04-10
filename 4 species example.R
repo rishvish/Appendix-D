@@ -17,7 +17,8 @@ props4 <- read_csv('props4.csv')
 #Define coefficients
 
 # Identity effects
-coeff_iden <- c(5,7,6,3) #rnorm(9, mean=8, sd =2)
+set.seed(469)
+coeff_iden <- round(rnorm(4, mean=3, sd =3), 2) #c(5,7,6,3) 
 
 # FULL interaction effects coefficients
 set.seed(652)
