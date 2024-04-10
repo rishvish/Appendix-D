@@ -1,9 +1,5 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-<style>
-body {
-text-align: justify}
-</style>
 
 # Theta Simulation Study
 
@@ -14,6 +10,8 @@ DOI](https://img.shields.io/badge/Paper_DOI-10.1007/s10651--023--00563--w-green)
 [![Code
 DOI](https://img.shields.io/badge/Code_DOI-10.5281/zenodo.10827269-blue)](https://doi.org/10.5281/zenodo.10827269)
 <!-- badges: end -->
+
+<div style="text-align: justify">
 
 This repository contains the source code for reproducing results of the
 theta simulation study performed in [Vishwakarma et
@@ -69,16 +67,18 @@ for fitting GDI models.
   - <u>**Final_Pipeline.R:**</u> This file includes the main functions
     for simulating the raw data, testing the robustness of theta and the
     efficacy of the three model selection procedures. The main packages
-    used are “readr” for reading and writing .csv files, “tidyverse” for
-    data manipulation, “DImodels” for fitting Diversity-Interaction
-    models and “ggpubr” for the themes of the plots. If any of these
+    used are `readr` for reading and writing .csv files, `tidyverse` for
+    data manipulation, `DImodels` for fitting Diversity-Interaction
+    models and `ggpubr` for the themes of the plots. If any of these
     packages aren’t present in the system they’ll be installed
     automatically.
 
   - <u>**Pipeline_Helper_Code.R:**</u> Helper functions used for
     estimating theta and testing efficacy of model selection procedures.
-    Used by Final_Pipeline.R
+    Used by `Final_Pipeline.R`
 
   - <u>**Theta_Reparameterization.R:**</u> Code showing examples which
-    highlight that the reparameterization of theta has no effect on its
+    highlight that the reparameterisation of theta has no effect on its
     estimate.
+
+</div>
